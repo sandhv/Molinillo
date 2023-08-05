@@ -13,7 +13,8 @@ body {
 }
 
 .contenedor {
-    width: 1000px ;
+    width: 90% ;
+    max-width: 1000px;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -49,7 +50,7 @@ header nav ul li a:hover {
 }
 
 .main {
-    width: 700px;
+    width: 70%;
     background: #8ec06c;
     float: left;
 }
@@ -78,7 +79,7 @@ header nav ul li a:hover {
 }
 
 aside {
-    width: 300px;
+    width: 30%;
     height: 525px;
     background: #537b35;
     padding: 20px;
@@ -126,10 +127,29 @@ aside .widget p {
 }
 
 footer {
-    width: 700px;
-    background: #537b35;
+    width: 70%;
+    background: #006837;
     padding: 15px 0;
     text-align: center;
     clear: both;
     font-weight: bold;
+}
+
+/* Using mediaqueries */
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 14px;
+    }
+    .main {
+        width: 100%;   
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
 }
