@@ -20,7 +20,8 @@ body {
 }
 
 header {
-    background-color: #8ec06c;
+    background-color: #006837;
+    font-weight: bold;
 }
 
 header nav {
