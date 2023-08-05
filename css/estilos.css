@@ -141,6 +141,9 @@ footer {
     body {
         font-size: 14px;
     }
+    .contenedor {
+        width: 100%;
+    }
     .main {
         width: 100%;   
     }
